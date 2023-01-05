@@ -38,8 +38,10 @@ namespace WSMantenimiento
                 options.AddPolicy(name: MiCors,
                                 builder =>
                                 {
-                                    builder.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
-                                    .AllowAnyHeader().AllowAnyMethod();
+                                    builder.WithExposedHeaders("*");
+                                    builder.WithHeaders("*");
+                                    builder.WithMethods("*");
+                                    builder.WithOrigins("*");
                                 });
             });
 
