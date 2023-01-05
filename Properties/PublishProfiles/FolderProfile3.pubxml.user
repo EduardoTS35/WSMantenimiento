@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\eduar\Desktop\ManteniemientoTotal\WebServiceMantenimiento</_PublishTargetUrl>
+    <History>True|2023-01-04T17:03:26.9152344Z;True|2023-01-03T18:55:42.2012813-06:00;True|2023-01-03T18:44:21.1964065-06:00;True|2023-01-03T18:24:31.0447622-06:00;</History>
+  </PropertyGroup>
+</Project>
